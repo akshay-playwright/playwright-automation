@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-const dataset = require("../testdata/loginData.json");
+const dataset = require("../testData/loginData.json");
 
 import { RegisterPage } from '../pages/RegisterPage'; 
 import { LoginPage } from '../pages/LoginPage'; 
