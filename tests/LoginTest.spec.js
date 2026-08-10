@@ -1,4 +1,4 @@
-import { test, expect } from '../util/baseTest';
+import { test, expect } from '../util/BaseTest';
 import { MemberPage } from '../pages/MemberPage';   
 import { ProfileDetailsPage } from '../pages/ProfileDetailsPage';
 const dataset = JSON.parse(JSON.stringify(require("../testdata/loginData.json")));
